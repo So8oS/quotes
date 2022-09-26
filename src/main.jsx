@@ -58,7 +58,7 @@ useEffect(() => {
         <h1>{num}</h1>
 
         <div className='footer'>
-          <a href="https://type.fit/api/quotes">Used Api</a>
+          <a href="https://type.fit/api/quotes" target="_blank">Used Api</a>
         </div>
         
     </div>
