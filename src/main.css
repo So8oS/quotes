@@ -1,5 +1,5 @@
 .container{
-    border: solid 1px black;
+    /* border: solid 1px black; */
     margin-top: 3em;
     width: 700px;
     background-color: #BA274A;
@@ -20,9 +20,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: 'Bebas Neue', cursive;
-    
 }
-
 
 .inner{
     width: 90%;
@@ -37,16 +35,25 @@
     font-size: 1.5rem;
 }
 
-.btn{
+.btn {
     background-color: #D7BCE8;
-    border: 0px;
+    border: none;
     font-size: 18px;
     border-radius: 20px;
     margin-top: 3em;
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     font-family: 'Bebas Neue', cursive;
-}
+    cursor: pointer;
+    border-radius: 15px;
+    /* box-shadow: 0 9px #999; */
+  }
+  /* .btn:hover {background-color: #3e8e41} */
+  .btn:active {
+    /* background-color: #3e8e41;
+    box-shadow: 0 5px #666; */
+    transform: translateY(4px);
+  }
 
 .footer{
     width: 100%;
