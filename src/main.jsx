@@ -20,13 +20,13 @@ useEffect(() => {
 
   return (
     <div className='flex flex-col justify-center items-center ' >
-        <span className=' border-black border-t border-b pt-4 pb-4 text-3xl w-96 flex justify-center font-bold' >Random Quote Generator</span>
+        <span className=' border-black border-t border-b pt-4 pb-4 text-3xl w-72 md:w-96 flex justify-center font-bold' >Random Quote Generator</span>
         <div  className='
-        w-96 md:w-[44rem] flex flex-col  justify-center items-center border border-black mt-12 shad bg-[#BA274A] rounded-3xl h-[18.75rem]  gap-10
-        px-5
+        w-80 md:w-[44rem] flex flex-col  justify-center items-center border border-black mt-12 shad bg-[#BA274A] rounded-3xl h-[18.75rem]  gap-10 px-5
+       
         '>
-                <span className='text-3xl font-pacifico text-center  ' >{data[num]?.text}</span>
-                <span className='text-2xl font-bebas font-bold  ' >{`-${data[num]?.author}-`}</span>
+                <span className='text-2xl md:text-3xl font-pacifico text-center  ' >{data[num]?.text}</span>
+                <span className=' text-xl md:text-2xl font-bebas font-bold  ' >{`-${data[num]?.author}-`}</span>
         </div>
         <button onClick={()=>{
             setNum(Math.floor(Math.random() * data.length))
